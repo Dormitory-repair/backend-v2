@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/repairing
+    username: root
+    password: Root@123
+server:
+  port: 8080
+
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+file:
+  upload-path: D:/IDEAproject/repair_uploads/order/
